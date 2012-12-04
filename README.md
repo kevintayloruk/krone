@@ -1,4 +1,4 @@
 krone
 =====
 
-Krone record system
+A Krone record system written in php/mysql
