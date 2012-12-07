@@ -6,8 +6,8 @@ require_once("./database.inc.php");
 //get_frames(3);
 ?>
 <form method="post" action="frame.php">
-        <label for="site">Site: </label>
-        <select id="site" name="site">
+        <label for="siteid">Site: </label>
+        <select id="siteid" name="siteid">
 <?
 	$sites = get_sites();
 	foreach ($sites as $siteid => $sitename) {

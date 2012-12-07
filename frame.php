@@ -4,6 +4,7 @@ require_once("./database.inc.php");
 
 //get_sites();
 //get_frames(3);
+echo $_POST["siteid"];
 ?>
 <form method="post" action="frame.php">
         <label for="site">Site: </label>
