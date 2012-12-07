@@ -17,4 +17,6 @@ html_header();
         </select>
 <input type="submit" value="Holla!" id="submit-button" />  
 </form>
+<?
 html_footer();
+?>
