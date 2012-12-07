@@ -1,5 +1,24 @@
 <?
 
+// HTML header
+
+function html_header() {
+?>
+	<html>
+		<head><title>KRONE Records</title></head>
+		<body>
+<?	
+}
+
+// HTML footer
+
+function html_footer() {
+?>
+		</body>
+	</html>
+<?
+}
+
 // Return an array of site ID, Name
 function get_sites() { 
 	$query = "SELECT * from site";

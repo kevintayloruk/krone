@@ -1,7 +1,7 @@
 <?
 require_once("./functions.inc.php");
 require_once("./database.inc.php");
-
+html_header();
 //get_sites();
 //get_frames(3);
 ?>
@@ -17,3 +17,4 @@ require_once("./database.inc.php");
         </select>
 <input type="submit" value="Holla!" id="submit-button" />  
 </form>
+html_footer();
