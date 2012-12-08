@@ -7,12 +7,14 @@ require_once("./database.inc.php");
 echo $_POST["siteid"];
 ?>
 <form method="post" action="frame.php">
-        <label for="site">Site: </label>
+        <label for="site">Frame: </label>
         <select id="site" name="site">
 <?
-	$sites = get_sites();
-	foreach ($sites as $siteid => $sitename) {
-		echo '<option value="'.$siteid.'">'.$sitename.'</option>';
+	$frames = get_frames($_POST["siteid"]);
+
+var_dump($frames);
+	foreach ($frames as $frameid => $framename) {
+		echo '<option value="'.$frameid.'">'.$framename.'</option>';
 	}
 ?>
         </select>
